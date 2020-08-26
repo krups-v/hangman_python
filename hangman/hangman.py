@@ -48,7 +48,7 @@ def play():
 
         for i, value in enumerate(correct_answer_letter):
 
-            if value == letter and value not in result:
+            if value == letter:
                 result[i] = letter
 
         if result == correct_answer_letter:
